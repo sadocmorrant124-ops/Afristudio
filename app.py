@@ -10,7 +10,7 @@ CORS(app)
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 API_KEY    = "sk-afri-cbdd588d618d43e497791c9975734d27"
 BASE_URL   = "https://build.lewisnote.com/v1"
-DAILY_LIMIT = 5   # générations gratuites par jour par IP
+DAILY_LIMIT = 10   # générations gratuites par jour par IP
 
 # ─── RATE LIMIT (in-memory, reset au redémarrage) ─────────────────────────────
 from collections import defaultdict
